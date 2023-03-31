@@ -18,6 +18,7 @@ class Gallerie extends Component {
                             this.setState({ arrayFilm: Dati.Search,caricamento:false })
 
                         })
+                        .then(err=>(console.log(err)))
         )
 
     }
