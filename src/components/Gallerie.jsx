@@ -14,11 +14,12 @@ class Gallerie extends Component {
                 .then(response => {
                     return (response.json())})
                         .then(Dati => {
-                            console.log(Dati.Search)
+                           // console.log(Dati.Search)
                             this.setState({ arrayFilm: Dati.Search,caricamento:false })
 
                         })
-                        .then(err=>(console.log(err)))
+                        .catch(err=>(console.log(err)))
+                        
         )
 
     }

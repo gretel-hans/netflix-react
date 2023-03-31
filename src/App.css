@@ -55,9 +55,23 @@ nav {
   font-size: 1em;
   display: flex;
   align-items: center;
+  background-color: transparent;
+}
+#generesDropdownII {
+  border: 0;
+  border-radius: 0px;
+  height: 2em;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
 }
 #generesDropdown span {
   margin-right: 0.8em;
+}
+
+#menu{
+  background-color: black;
 }
 
 #heroIcons span {
@@ -174,4 +188,12 @@ main{
 
 .filmDiv{
   width:10em;
+}
+
+#link{
+  color:white;
+}
+
+.avatarDrop{
+  border:0;
 }
