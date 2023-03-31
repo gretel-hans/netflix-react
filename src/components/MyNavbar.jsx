@@ -9,13 +9,18 @@ const MyNavbar = () => (
             <Container fluid className="container-fluid align-center p-0">
                 
                 <a className="navbar-brand" href="void:javascript(0)"><img src="../assets/netflix_logo.png" alt="Netflix Logo" /></a>
+
                 <div className="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon" id='menuTendina'></span>
                 </div>
+                
                 <div className="collapse navbar-collapse align-center" id="navbarSupportedContent">
+
+
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
                         <li className="nav-item">
                             <a className="nav-link" id='link' href="void:javascript(0)">Home</a>
                         </li>
